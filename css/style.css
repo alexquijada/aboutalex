@@ -1287,19 +1287,6 @@ html{
 #parallaxTwo h1{
   margin-bottom: 10px;
 }
-.pricing.two .pricing_item, .pricing.four .pricing_item, .pricing.three .pricing_item{
-	-webkit-flex: 0 1 320px;
-	-moz-flex: 0 1 320px;
-	-ms-flex: 0 1 320px;
-	-o-flex: 0 1 320px;
-	flex: 0 1 320px
-}
- #shop .shop_info{ margin-top:20px;}
-.shop_tab .tabs li{ font-size:12px;}
-#map{ height:290px;}
-.footer_logo.bottom25 > img {
-  width: 90px;
-}
 
 }
 
