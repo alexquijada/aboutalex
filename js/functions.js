@@ -214,7 +214,7 @@ jQuery(function ($) {
     items: 4,
     pagination: false,
     stopOnHover: true,
-    navigationText: ["<i class='icon-chevron-thin-left'></i>", "<i class=' icon-chevron-thin-right'></i>"],
+    navigationText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
     navigation: true,
     itemsDesktop: [1199, 2],
     itemsDesktopSmall: [979, 2],
