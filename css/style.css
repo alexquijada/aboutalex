@@ -250,6 +250,7 @@ img
 }
 .image{ 
 	overflow:hidden;
+	max-width: 100%;
 }
 
 
@@ -800,7 +801,7 @@ input,
 
 /* ----- Paralax Two ----- */
 #parallaxTwo{
-	background:url(../images/petparallax.jpg) no-repeat;
+	background:url(../images/dogparallax.jpg) no-repeat;f
 	padding:10% 0;
 }
 #projectTwo , #parallaxTwo, .page_header, #counter{
