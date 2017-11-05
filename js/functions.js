@@ -79,7 +79,7 @@ jQuery(function ($) {
   });
 
   $("#expert_slider1").owlCarousel({
-    autoPlay: true,
+    autoPlay: false,
     items: 4,
     pagination: false,
     stopOnHover: true,
@@ -88,12 +88,12 @@ jQuery(function ($) {
     itemsDesktop: [1199, 2],
     itemsDesktopSmall: [979, 2],
     //itemsTablet: [768,2],
-    itemsMobile: [479, 1],
+    itemsMobile: [150, 1],
 
   });
 	
 	$("#expert_slider2").owlCarousel({
-    autoPlay: true,
+    autoPlay: false,
     items: 4,
     pagination: false,
     stopOnHover: true,
@@ -102,7 +102,7 @@ jQuery(function ($) {
     itemsDesktop: [1199, 2],
     itemsDesktopSmall: [979, 2],
     //itemsTablet: [768,2],
-    itemsMobile: [479, 1],
+    itemsMobile: [150, 1],
 
   });
 
