@@ -801,7 +801,7 @@ input,
 
 /* ----- Paralax Two ----- */
 #parallaxTwo{
-	background:url(../images/dogparallax.jpg) no-repeat;f
+	background:url(../images/dogparallax.jpg) no-repeat;
 	padding:10% 0;
 }
 #projectTwo , #parallaxTwo, .page_header, #counter{
