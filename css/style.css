@@ -844,15 +844,6 @@ input,
 	background:url(../images/archparallax.jpg) no-repeat;
 	padding:10% 0;
 }
-#projectOne{
-	background:url(../images/arch.png) no-repeat;
-}
-.page_header{
-	background:url(../images/arch.png) no-repeat;
-}
-#counter{
-	background:url(../images/arch.png) no-repeat;
-}
 #projectOne , #parallaxOne, .page_header, #counter{
 	background-size:cover;
 	width:100%;
@@ -875,15 +866,6 @@ input,
 #parallaxTwo{
 	background:url(../images/petparallax.jpg) no-repeat;
 	padding:10% 0;
-}
-#projectTwo{
-	background:url(../images/arch.jpg) no-repeat;
-}
-.page_header{
-	background:url(../images/arch.jpg) no-repeat;
-}
-#counter{
-	background:url(../images/arch.jpg) no-repeat;
 }
 #projectTwo , #parallaxTwo, .page_header, #counter{
 	background-size:cover;
