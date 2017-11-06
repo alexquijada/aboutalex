@@ -1,6 +1,17 @@
 jQuery(function ($) {
   "use strict";
 
+	        $(".intro-direction").on('click', function(event) {    
+            event.preventDefault();
+            var hash = this.hash;
+
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 900, function(){
+                window.location.hash = hash;
+            });
+        });
+	
   // ************ Back to Top
   var amountScrolled = 700;
   var backBtn = $("a.scrollToTop");
@@ -61,8 +72,7 @@ jQuery(function ($) {
     if($(".equalheight").length){
         $(".equalheight").matchHeight({ property: 'height' });
     }
-
-
+		
 
   // ************Owl Carousel
   $("#news_slider").owlCarousel({
@@ -131,6 +141,8 @@ jQuery(function ($) {
         drag_block_vertical: false
       }
 
+		
+		
     },
     parallax: {
       type: "mouse",
