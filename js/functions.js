@@ -1,7 +1,8 @@
 jQuery(function ($) {
   "use strict";
 
-	        $(".intro-direction").on('click', function(event) {    
+	          $(function(){
+        $(".navbar-op ul li a, .navbar-op a.navbar-brand, .intro-direction a, a.go-to-top").on('click', function(event) {    
             event.preventDefault();
             var hash = this.hash;
 
@@ -11,6 +12,7 @@ jQuery(function ($) {
                 window.location.hash = hash;
             });
         });
+    });
 	
   // ************ Back to Top
   var amountScrolled = 700;
