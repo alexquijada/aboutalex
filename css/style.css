@@ -1125,6 +1125,7 @@ nav.navbar.bootsnav.navbar-fixed .navbar-brand > .logo-display,
   h2 {font-size: 1.625rem;}
   h3 {font-size: 1.25rem;}
   h4 {font-size: 1rem;}
+	h5 { text-align:left;}
   p,  #text_rotator p{ font-size:0.875rem;}
   
 nav.navbar.bootsnav .navbar-toggle{
@@ -1273,6 +1274,7 @@ html{
 	 
 .page_header .page-content .page_nav{
   width: 100%;
+	
 }
 .scrollToTop{
 	right:15px;
