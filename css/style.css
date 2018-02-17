@@ -1265,8 +1265,6 @@ html{
   display: block;
   padding:20px 15px;
 }
-.tour_media .tour_feature > img{ width:100%; display:block;}
-.faq_content .items > li > a{ font-size:12px;}
 }
 
 @media screen and (max-width:480px){
@@ -1291,21 +1289,4 @@ html{
 	body{
 		font-size:80%;
 	}
-  .profile .p_pic, .profile .profile_text{
-     display: block;
-  }
-  .profile .p_pic{ margin-bottom:15px;}
-  .detail_course .info_label{
-	  margin:0 20px 15px 0;
-	  display:block;
 }
-.apply_coupon .coupon.text-right{ text-align:left;}
-.apply_coupon .coupon .btn_common { margin-bottom:15px;}
-}
-/*.navbar-fixed.white.no-background{ top:auto;}	
-.navbar-fixed.white{ top:0;}*/
-
-
-
-
-
